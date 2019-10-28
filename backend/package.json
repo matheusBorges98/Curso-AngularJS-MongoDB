@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "loader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matheus Borges Nunes",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-query-int": "^3.0.0",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.7.7",
+    "mongoose-paginate": "^5.0.3",
+    "node-restful": "^0.2.6",
+    "pm2": "^4.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
