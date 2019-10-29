@@ -7,8 +7,10 @@ module.exports=function(server){     //recebendo como parametro a função serve
 	const router = express.Router()
 	server.use('/api',router) //sempre q houver a palavre API na URL esse middleare será chamado
 
-	router.route('/teste').get(function(req, res, next){
-		res.send('funcionou')
-	})
+	
+	//rotas API
+
+	const billingCycleService = require('../api/billingCycle/billingCycleService')
+	billingCycleService.register(router, '/billingCycles')
 
 }
