@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="com.genuitec.eclipse.code.angular.server.angularCliProjectServerLaunch">
+<booleanAttribute key="ng-lr-enabled" value="true"/>
+<stringAttribute key="ng-port" value="3003"/>
+<stringAttribute key="ng-serve-application" value="Default"/>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/teste"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="4"/>
+</listAttribute>
+<booleanAttribute key="pick-free-port" value="true"/>
+<stringAttribute key="server-type" value="NODEJS"/>
+</launchConfiguration>

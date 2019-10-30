@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Launch Chrome 127.0.0.1",
+            "type": "chrome",
+            "request": "launch",
+            "port": 3003,
+            "webRoot": "${workspaceFolder}",
+            "url": "http://127.0.0.1:57018/p/cursoweb/backend/config/?_cmAuth\u003dbkexlxswnz"
+        },
+        {
+            "name": "Launch Chrome New_configuration",
+            "type": "chrome",
+            "request": "launch",
+            "port": 3003,
+            "webRoot": "${workspaceFolder}",
+            "url": "http://localhost:3003/"
+        }
+    ]
+}
