@@ -1,13 +1,13 @@
 const gulp=require('gulp')
 const uglify= require('gulp-uglify')
 const uglifycss=require('gulp-uglifycss')
-const concat=require('gulp-concat')
+const concat = require('gulp-concat')
 
 gulp.task('deps',['deps.js','deps.css','deps.fonts'])
 
 gulp.task('deps.js',()=>{
 return gulp.src([                //src das dependencias referencias
-	'node-modules/angular/angular.min.js',
+	'node_modules/angular/angular.min.js',
 	'node_modules/angular-ui-router/release/angular-ui-router.min.js',
 	'node_modules/angular-animate/angular-animate.min.js',
 	'node_modules/angular/toastr/dist/angular-toastr.tpls.min.js',

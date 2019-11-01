@@ -1,4 +1,4 @@
-const gulp=require('gulp')
+const gulp= require('gulp')
 const babel=require('gulp-babel')
 const uglify=require('gulp-uglify')
 const uglifycss=require('gulp-uglifycss')
